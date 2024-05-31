@@ -11,11 +11,13 @@ namespace fukuv0531
         private void button1_Click(object sender, EventArgs e)
         {
             vy = -15;
+            label1.Text = "è„Ç…ìÆÇ¢ÇΩÇÊ";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             vy = 15;
+            label1.Text = "â∫Ç…ìÆÇ¢ÇΩÇÊ";
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -27,6 +29,20 @@ namespace fukuv0531
         {
             label1.Text = "ç≤ãvä‘ óIê∂";
             timer1.Enabled = false;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            vy = 15;
+            label1.Left = label1.Left + vy;
+            label1.Text = "âEÇ…ìÆÇ¢ÇΩÇÊ";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            vy = -15;
+            label1.Left = label1.Left + vy;
+            label1.Text = "ç∂Ç…ìÆÇ¢ÇΩÇÊ";
         }
     }
 }
