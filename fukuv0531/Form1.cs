@@ -12,12 +12,14 @@ namespace fukuv0531
         {
             vy = -15;
             label1.Text = "è„Ç…ìÆÇ¢ÇΩÇÊ";
+            label1.ForeColor = Color.Red;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             vy = 15;
             label1.Text = "â∫Ç…ìÆÇ¢ÇΩÇÊ";
+            label1.ForeColor = Color.Brown;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -36,6 +38,7 @@ namespace fukuv0531
             vy = 15;
             label1.Left = label1.Left + vy;
             label1.Text = "âEÇ…ìÆÇ¢ÇΩÇÊ";
+            label1.ForeColor = Color.Cyan;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -43,6 +46,7 @@ namespace fukuv0531
             vy = -15;
             label1.Left = label1.Left + vy;
             label1.Text = "ç∂Ç…ìÆÇ¢ÇΩÇÊ";
+            label1.ForeColor = Color.YellowGreen;
         }
     }
 }
