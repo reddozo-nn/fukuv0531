@@ -26,7 +26,6 @@ namespace fukuv0531
         private void label1_Click(object sender, EventArgs e)
         {
             label1.Text = "ç≤ãvä‘ óIê∂";
-            vy = 0;
             timer1.Enabled = false;
         }
     }
